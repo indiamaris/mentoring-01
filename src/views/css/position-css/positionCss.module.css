@@ -1,0 +1,51 @@
+.containerCssPosition{
+    background-color: rgba(2, 246, 189, 0.199);
+    width: 90vw;
+    margin: 25px;
+    border: 2px solid rgb(2, 241, 153);
+/* display: flex; */
+}
+
+.cssRelative{
+    width: 800px;
+    height: 800px;
+    background-color: blue;
+    position:relative;
+    top: 200px;
+    left: 800px;
+}
+
+.cssStatic{    
+    width: 300px;
+    height: 300px;
+    background-color:rgb(203, 221, 4) ;
+    /* position: static;
+    bottom: 100px;
+    left: 100px; */
+}
+
+
+
+.cssSticky{    
+    width: 300px;
+    height: 300px;
+    background-color:pink ;
+    /* position: sticky;
+    bottom: 100px;
+    left: 100px; */
+};
+
+.cssAbsolute{    
+    width: 300px;
+    height: 300px;
+    background-color: palevioletred;
+    /* position: absolute;
+    bottom: 100px;
+    left: 100px; */
+};
+
+
+
+
+
+

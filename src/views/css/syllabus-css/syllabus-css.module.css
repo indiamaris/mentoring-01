@@ -1,0 +1,17 @@
+.containerFluid{
+    width: 100vw;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 15fr; 
+background-color: aquamarine;
+color: rgb(1, 63, 43);
+}
+.navContainer{
+    background-color: aqua;
+    grid-row:1/2 ;
+}
+.cssContent{
+    background-color: red;
+    grid-row: 2/3;
+    display: flex;
+}
